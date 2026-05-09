@@ -617,48 +617,9 @@ Place these files inside `assets/` when you capture them:
 - `player-clusters.png`
 - `match-simulation.png`
 
-## Resume Bullet Points
 
-- Built an end-to-end IPL analytics engine using Python, Pandas, Scikit-learn, XGBoost, Plotly, and Streamlit.
-- Engineered live cricket features such as required run rate, pressure index, wickets remaining, and partnership strength.
-- Trained and compared multiple classification models to predict ball-by-ball win probability.
-- Grouped batters using K-Means clustering to identify aggressive hitters, anchors, finishers, and powerplay specialists.
-- Designed an interactive dashboard with probability gauges, run progression charts, venue heatmaps, and simulation tools.
-- Optimized the project for lightweight training, low-memory usage, and smooth dashboard performance.
 
-## ATS-Friendly Project Summary
 
-IPL Analytics Engine is a Python-based cricket analytics platform that processes ball-by-ball IPL data, builds match-state features, trains machine learning models for live win probability prediction, clusters player batting styles, and visualizes match insights through an interactive Streamlit dashboard.
-
-## LinkedIn Project Post Template
-
-I built an IPL Analytics Engine from scratch using Python, Pandas, Scikit-learn, XGBoost, Plotly, and Streamlit.
-
-It predicts live win probability ball by ball, clusters players by batting style, and simulates match scenarios using historical cricket data.
-
-The project focuses on lightweight modeling, clean architecture, and an interactive dashboard designed for cricket analysis.
-
-## Interview Questions You Can Practice
-
-### 1. Why did you choose XGBoost?
-
-Because cricket data is structured tabular data, and XGBoost usually performs very well on this type of problem.
-
-### 2. Why did you not use deep learning?
-
-This project is designed to stay lightweight, faster, and easier to explain. Deep learning would add complexity without giving the best value here.
-
-### 3. How do you avoid data leakage?
-
-I split data by matches and use only past or current match state features when predicting win probability.
-
-### 4. Why is pressure index important?
-
-It combines score pressure, ball pressure, and wicket pressure into one cricket-aware signal.
-
-### 5. What makes the dashboard useful?
-
-It turns raw data into a live cricket storytelling tool that coaches, analysts, or commentators can quickly understand.
 
 ## Future Improvements
 
@@ -681,6 +642,3 @@ Example:
 streamlit run app.py
 ```
 
-## Final Note
-
-This project is intentionally structured so you can start simple, understand every part, and then keep improving it as your skills grow.
