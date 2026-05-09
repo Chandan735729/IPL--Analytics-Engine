@@ -267,22 +267,6 @@ Main UI features:
 - Responsive layout
 - Interactive charts
 
-## Deployment Guide
-
-### Streamlit Cloud
-
-1. Push the project to GitHub
-2. Make sure `requirements.txt` is present
-3. Open Streamlit Cloud
-4. Choose the repository and the `app.py` file
-5. Deploy
-
-### Hugging Face Spaces
-
-1. Create a new Streamlit Space
-2. Connect the GitHub repository or upload files
-3. Add `requirements.txt`
-4. Deploy the Space
 
 ### Saved Model Workflow
 
