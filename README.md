@@ -21,15 +21,6 @@ This project is designed to be:
 - Simulates match situations with Monte Carlo logic
 - Shows everything in a Streamlit dashboard with Plotly charts
 
-## Why This Project Is Good for a Laptop Like Yours
-
-Your laptop is powerful, but summer heat matters. This project keeps things efficient by using:
-
-- Pandas vectorized operations instead of slow loops
-- Lightweight tabular models instead of deep learning
-- Streamlit caching for data and model reuse
-- Smaller model sizes and controlled simulation counts
-- Preprocessed features so the dashboard stays smooth
 
 ## Folder Structure
 
