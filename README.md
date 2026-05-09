@@ -2,6 +2,8 @@
 
 An end-to-end, beginner-friendly cricket analytics project that turns IPL ball-by-ball data into live win probability, player clusters, match simulations, and interactive dashboards.
 
+**[Live Demo: https://ipl--analytics-engine-fms3rcmp9ednznew6dlh42.streamlit.app/](https://ipl--analytics-engine-fms3rcmp9ednznew6dlh42.streamlit.app/)**
+
 This project is designed to be:
 
 - Lightweight on CPU and RAM
